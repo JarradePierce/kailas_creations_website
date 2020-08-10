@@ -1,0 +1,148 @@
+body{
+  background-color: #1C1C1C;
+  font-family: 'Lemonada', cursive;
+
+}
+
+header{
+  width: 100%;
+  color: #E997CB;
+}
+
+div{
+  margin: 0px;
+}
+
+footer{
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.banner-container{
+  text-align: center;
+  border-bottom: 4px solid #E997CB;
+}
+
+.banner-container h4,
+.banner-container h3,
+.banner-container p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.banner-container h4{
+  margin-bottom: 1em;
+}
+
+.banner-container h4,
+.banner-container h3
+{
+  color: #fff;
+}
+
+.logo-text{
+  margin-top: 0px;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.main-nav{
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  background-color: #fff;
+}
+
+.main-nav li{
+  align-self: center;
+  margin-top: .3em;
+  padding: 3px;
+  list-style: none;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+.main-nav a:hover{
+  color: #E997CB;
+}
+
+.about-container{
+  background-color: #fff;
+}
+
+.about-container{
+  height: 25em;
+}
+
+.about-container,
+.kreations-container,
+.footer-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kreation{
+  margin-bottom: 2em;
+}
+
+.price{
+  color: #E997CB;
+  margin-bottom: .3em;
+}
+
+.info-text{
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  border-bottom: 2px solid #E997CB;
+}
+
+.portfolio-img-container{
+  width: 10em;
+  height: 10em;
+  margin: auto;
+}
+
+.portfolio-img{
+  width: 100%;
+  height: 100%;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.about-container p{
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+}
+
+.kreation-img{
+  width: 100%;
+  height: 18em;
+}
+
+.social-media-links{
+  list-style: none;
+  padding: 0;
+}
